@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.practice {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 100px auto 100px ;
+    height: 100vh;
+}
+
+.header {
+    background-color: blue;
+    grid-column: 1/5;
+}
+
+.sidebar {
+    background-color: green;
+    grid-column:1/2 ;
+}
+
+.maincontent {
+    background-color: red;
+    grid-column: 2/5;
+}
+
+.footer {
+    background-color: violet;
+    grid-column: 1/5;
+}
